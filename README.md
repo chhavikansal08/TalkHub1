@@ -52,12 +52,17 @@ It provides a **modern, responsive interface** with **instant messaging powered 
 - MongoDB
 - Maven
 
+#### 1. Clone the Repository
+```bash
+git clone https://github.com/chhavikansal08/TalkHub1.git
+cd TalkHub1
+```
+
 #### 2. Start the backend
 ```bash
 cd chat-app-backend
 ./mvnw spring-boot:run
 ```
-_Backend runs on `http://localhost:8080`_
 
 #### 3. Start the frontend
 ```bash
@@ -65,18 +70,12 @@ cd chat-app-frontend
 npm install
 npm run dev
 ```
-_Frontend runs on `http://localhost:5173`_
+
 
 ## Usage
 - Enter a username and join or create a chat room
 - Start chatting in real time
 - Messages are stored and visible to all room members
-
-```
-
-## License
-This project is licensed under the MIT License.
-
 
 
 ## ⭐ Acknowledgments
